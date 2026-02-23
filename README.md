@@ -1,8 +1,8 @@
 # FundMe – Sepolia Testnet
 
-A simple crowdfunding smart contract deployed on Ethereum Sepolia.
+A smart contract deployed on Ethereum Sepolia for collecting donations. 
 
-Users can fund the contract in ETH, and contributions must be worth at least **$1 USD**, enforced using the ETH/USD price feed from Chainlink.
+Users can donate ETH to the contract, and donations must be worth at least **$1 USD**, enforced using the ETH/USD price feed from Chainlink.
 
 The contract:
 
@@ -10,5 +10,6 @@ The contract:
 * Restricts withdrawals to the immutable owner
 * Transfers the full contract balance to the owner on withdrawal
 * Uses a price conversion library for ETH → USD validation
-s
+
 Built with Solidity ^0.8.18.
+
